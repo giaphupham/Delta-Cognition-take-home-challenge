@@ -1,0 +1,17 @@
+# Configurations for YOLO-based object detection
+yolo_model_path: 'yolov5s'
+
+# Configuration for video processing
+video_path: 'data/test_videos/test_video.mp4'
+frame_width: 640
+frame_height: 480
+
+# Novelty detection settings
+novelty_detection:
+  model_type: 'autoencoder'  # or 'isolation_forest'
+  autoencoder_input_dim: 784
+  isolation_forest_contamination: 0.01
+
+# Collision avoidance settings
+collision_avoidance:
+  safe_distance: 50  # distance in pixels or meters

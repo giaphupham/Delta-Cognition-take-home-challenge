@@ -1,0 +1,5 @@
+opencv-python==4.10.0.84
+torch==2.5.0    
+torchvision==0.20.0  
+tensorflow==2.17.0
+yolov5==7.0.13
